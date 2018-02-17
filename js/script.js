@@ -14,7 +14,7 @@ $(document).ready(function() {
 
     function fetchQuote() {
         $.ajax( {
-            url: 'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=mycallback',
+            url: 'https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=mycallback',
             dataType: "jsonp",
             jsonpCallback: "mycallback",
             success: function(data) {
