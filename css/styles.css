@@ -1,0 +1,45 @@
+body {
+  background-color: #efe085;
+}
+
+#quote-box {
+  background-color: white;
+  margin-top: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+}
+
+#new-quote {
+  float: right;
+  height: 5rem;
+  font-size: 1.5rem;
+  font-family: 'Audiowide', cursive;
+}
+
+#divButtons {
+  margin-top: 1rem;
+}
+
+#rqmTitle {
+  margin-top: 8rem; 
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 5rem;
+}
+
+#tweet-quote button {
+  background-color: #1da1f2;
+}
+
+#text {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.5rem;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+footer a {
+  color: black;
+}
